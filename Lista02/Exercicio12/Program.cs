@@ -6,15 +6,17 @@
 
 using System;
 
-namespace Exercicio12;
-class Program
+namespace Exercicio12
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.Write("Digite um número: ");
-        double numero = double.Parse(Console.ReadLine());
-        double quadrada = Math.Sqrt(numero);
-        double cubica = Math.Cbrt(numero);
-        Console.WriteLine("O número digitado foi :" + numero + ".\nSua raiz quadrada é igual a " + quadrada + ".\nSua raiz cúbica é igual a " + cubica + ".");
+        static void Main(string[] args)
+        {
+            Console.Write("Digite um número: ");
+            double numero = double.Parse(Console.ReadLine());
+            double quadrada = Math.Sqrt(numero);
+            double cubica = Math.Cbrt(numero);
+            Console.WriteLine("O número digitado foi :" + numero + ".\nSua raiz quadrada é igual a " + quadrada + ".\nSua raiz cúbica é igual a " + cubica + ".");
+        }
     }
 }

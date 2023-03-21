@@ -2,17 +2,19 @@
 
 using System;
 
-namespace Exercicio20;
-class Program
+namespace Exercicio20
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.Write("Digite o valor do raio da esfera: ");
-        double raio = double.Parse(Console.ReadLine());
-        //Área da Esfera: 4 * PI * r²
-        double area = 4 * Math.PI * Math.Pow(raio, 2);
-        //Volume da Esfera: (4/3) * PI * r³
-        double volume = 4 / 3 * Math.PI * Math.Pow(raio, 3);
-        Console.WriteLine("A esfera de raio " + raio + " tem área igual a " + area + " e volume igual a " + volume + ".");
+        static void Main(string[] args)
+        {
+            Console.Write("Digite o valor do raio da esfera: ");
+            double raio = double.Parse(Console.ReadLine());
+            //Área da Esfera: 4 * PI * r²
+            double area = 4 * Math.PI * Math.Pow(raio, 2);
+            //Volume da Esfera: (4/3) * PI * r³
+            double volume = 4 / 3 * Math.PI * Math.Pow(raio, 3);
+            Console.WriteLine("A esfera de raio " + raio + " tem área igual a " + area + " e volume igual a " + volume + ".");
+        }
     }
 }

@@ -2,26 +2,28 @@
 
 using System;
 
-namespace Exercicio05;
-class Program
+namespace Exercicio05
 {
-    static void Main(string[] args)
+    class Program
     {
-        double? num1, num2, num3, num4, num5;
+        static void Main(string[] args)
+        {
+            double num1, num2, num3, num4, num5;
 
-        Console.Write("Digite o valor do primeiro número: ");
-        num1 = double.Parse(Console.ReadLine());
-        Console.Write("Digite o valor do segundo número: ");
-        num2 = double.Parse(Console.ReadLine());
-        Console.Write("Digite o valor do terceiro número: ");
-        num3 = double.Parse(Console.ReadLine());
-        Console.Write("Digite o valor do quarto número: ");
-        num4 = double.Parse(Console.ReadLine());
-        Console.Write("Digite o valor do quinto número: ");
-        num5 = double.Parse(Console.ReadLine());
+            Console.Write("Digite o valor do primeiro número: ");
+            num1 = double.Parse(Console.ReadLine());
+            Console.Write("Digite o valor do segundo número: ");
+            num2 = double.Parse(Console.ReadLine());
+            Console.Write("Digite o valor do terceiro número: ");
+            num3 = double.Parse(Console.ReadLine());
+            Console.Write("Digite o valor do quarto número: ");
+            num4 = double.Parse(Console.ReadLine());
+            Console.Write("Digite o valor do quinto número: ");
+            num5 = double.Parse(Console.ReadLine());
 
-        double soma = num1 + num2 + num3 + num4 + num5;
+            double soma = num1 + num2 + num3 + num4 + num5;
 
-        Console.WriteLine($"Os números digitados foram {num1}, {num2}, {num3}, {num4}, {num5}, e sua soma é igual a {soma}.");
+            Console.WriteLine($"Os números digitados foram {num1}, {num2}, {num3}, {num4}, {num5}, e sua soma é igual a {soma}.");
+        }
     }
 }

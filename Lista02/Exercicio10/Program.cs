@@ -2,14 +2,16 @@
 
 using System;
 
-namespace Exercicio10;
-class Program
+namespace Exercicio10
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.Write("Digite um número: ");
-        double numero = double.Parse(Console.ReadLine());
-        double raiz = Math.Sqrt(numero);
-        Console.WriteLine("O número digitado foi " + numero + " e sua raiz quadrada é igual a " + raiz + ".");
+        static void Main(string[] args)
+        {
+            Console.Write("Digite um número: ");
+            double numero = double.Parse(Console.ReadLine());
+            double raiz = Math.Sqrt(numero);
+            Console.WriteLine("O número digitado foi " + numero + " e sua raiz quadrada é igual a " + raiz + ".");
+        }
     }
 }

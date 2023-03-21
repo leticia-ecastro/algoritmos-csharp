@@ -4,17 +4,19 @@
 
 using System;
 
-namespace Exercicio11;
-class Program
+namespace Exercicio11
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.Write("Digite um número: ");
-        double numero = double.Parse(Console.ReadLine());
-        double raizQuadrada = Math.Pow(numero,2);
-        double raizCubica = Math.Pow(numero,3);
-        double raizQuarta = Math.Pow(numero,4);
-        double raizQuinta = Math.Pow(numero,5);
-        Console.WriteLine("O número digitado foi: " + numero + ".\nSeu valor elevado ao quadrado é: " + raizQuadrada + ".\nSeu valor elevado ao cubo é: " + raizCubica + ".\nSeu valor elevado à quarta é: " + raizQuarta + ".\nSeu valor elevado à quinta é: " + raizQuinta + ".");
+        static void Main(string[] args)
+        {
+            Console.Write("Digite um número: ");
+            double numero = double.Parse(Console.ReadLine());
+            double raizQuadrada = Math.Pow(numero,2);
+            double raizCubica = Math.Pow(numero,3);
+            double raizQuarta = Math.Pow(numero,4);
+            double raizQuinta = Math.Pow(numero,5);
+            Console.WriteLine("O número digitado foi: " + numero + ".\nSeu valor elevado ao quadrado é: " + raizQuadrada + ".\nSeu valor elevado ao cubo é: " + raizCubica + ".\nSeu valor elevado à quarta é: " + raizQuarta + ".\nSeu valor elevado à quinta é: " + raizQuinta + ".");
+        }
     }
 }

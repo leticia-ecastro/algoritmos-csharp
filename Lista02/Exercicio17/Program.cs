@@ -5,17 +5,19 @@ Volume = área da base x altura.
 
 using System;
 
-namespace Exercicio17;
-class Program
+namespace Exercicio17 
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.Write("Digite o valor da Área da base do triângulo: ");
-        double areaBase = double.Parse(Console.ReadLine());
-        Console.Write("Digite o valor da Altura do triângulo: ");
-        double altura = double.Parse(Console.ReadLine());
-        double volume = areaBase * altura;
+        static void Main(string[] args)
+        {
+            Console.Write("Digite o valor da Área da base do triângulo: ");
+            double areaBase = double.Parse(Console.ReadLine());
+            Console.Write("Digite o valor da Altura do triângulo: ");
+            double altura = double.Parse(Console.ReadLine());
+            double volume = areaBase * altura;
 
-        Console.WriteLine("O Volume do prisma triangular é igual a: " + volume + ".");
+            Console.WriteLine("O Volume do prisma triangular é igual a: " + volume + ".");
+        }
     }
 }
