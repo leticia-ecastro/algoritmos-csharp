@@ -1,2 +1,2 @@
-Este repositório contém as listas de exercícios resolvidas em C# referentes à disciplina de Algoritmos, do curso superior de Tecnologia em Análise e Desenvolvimento de Sistemas.
+Este repositório contém as listas de exercícios resolvidas em C# referentes à disciplina de Algoritmos, do curso superior de Tecnologia em Análise e Desenvolvimento de Sistemas. <br/>
 A resolução desses exercícios objetiva o desenvolvimento da lógica de programação por meio do estudo de variáveis, operadores aritméticos, operadores lógicos, entrada e saída de dados, estrutura de desvio condicional, estrutura de escolha, laços de repetição, Strings e Arrays unidimensionais.
